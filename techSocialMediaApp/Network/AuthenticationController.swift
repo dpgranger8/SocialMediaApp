@@ -10,6 +10,13 @@ import Foundation
 class AuthenticationController {
     enum AuthError: Error, LocalizedError {
         case couldNotSignIn
+        
+        var errorDescription: String? {
+            switch self {
+            case .couldNotSignIn:
+                return NSLocalizedString("Email or password was incorrect", comment: "")
+            }
+        }
     }
     
 
@@ -19,7 +26,7 @@ class AuthenticationController {
      - Throws: If the user does not exist or if the API.url is invalid
      - Returns: A boolean depending on whether or not the operation was successful
      */
-    func signIn(email: String, password: String) async throws -> Bool {
+    func signInAndAssignUser(email: String, password: String) async throws -> Bool {
         // Initialize our session and request
         let session = URLSession.shared
         var request = URLRequest(url: URL(string: "\(API.url)/signIn")!)

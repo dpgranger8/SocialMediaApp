@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct User: Decodable, Encodable {
+struct User: Codable {
     var firstName: String
     var lastName: String
     var email: String
@@ -16,4 +16,5 @@ struct User: Decodable, Encodable {
     var userName: String
     
     static var current: User?
+    var profile: Profile?
 }

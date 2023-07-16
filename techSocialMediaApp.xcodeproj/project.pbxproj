@@ -7,25 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E5DF3152A564708003C5D2D /* CommentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DF3142A564708003C5D2D /* CommentsTableViewController.swift */; };
+		7E5DF3172A5675C6003C5D2D /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DF3162A5675C5003C5D2D /* NewPostViewController.swift */; };
+		7E5DF3192A58534D003C5D2D /* MyPostsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DF3182A58534C003C5D2D /* MyPostsCollectionViewController.swift */; };
+		7E5DF31B2A58604D003C5D2D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DF31A2A58604D003C5D2D /* ProfileViewController.swift */; };
+		7E5DF31D2A586835003C5D2D /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DF31C2A586835003C5D2D /* EditProfileViewController.swift */; };
+		7E5DF31F2A587230003C5D2D /* ModalDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DF31E2A587230003C5D2D /* ModalDelegate.swift */; };
+		7EBC41F02A4A798000B1C8E7 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC41EF2A4A798000B1C8E7 /* APIController.swift */; };
+		7EBC41F22A4A82C100B1C8E7 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC41F12A4A82C100B1C8E7 /* Profile.swift */; };
+		7EBC41F42A4A93BC00B1C8E7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC41F32A4A93BC00B1C8E7 /* Post.swift */; };
+		7EBC41F62A4B2A9000B1C8E7 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC41F52A4B2A9000B1C8E7 /* Comment.swift */; };
+		7EBC41FC2A4B3B8900B1C8E7 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC41FB2A4B3B8900B1C8E7 /* PostCollectionViewCell.swift */; };
+		7EBC41FF2A4B3E0500B1C8E7 /* PostsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC41FE2A4B3E0500B1C8E7 /* PostsCollectionViewController.swift */; };
+		7EBC42052A4C87D900B1C8E7 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC42042A4C87D900B1C8E7 /* FooterView.swift */; };
+		7EC73E842A4F251C002400F9 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC73E832A4F251C002400F9 /* MyTabBarController.swift */; };
 		A3C2D4CD2908297000C0AF5F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C2D4CC2908297000C0AF5F /* User.swift */; };
 		A3C2D4CF29082B1300C0AF5F /* AuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C2D4CE29082B1300C0AF5F /* AuthenticationController.swift */; };
 		A3C2D4D129082BF900C0AF5F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C2D4D029082BF900C0AF5F /* API.swift */; };
 		A3DFFA482901B8F400A28B8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DFFA472901B8F400A28B8C /* AppDelegate.swift */; };
 		A3DFFA4A2901B8F400A28B8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DFFA492901B8F400A28B8C /* SceneDelegate.swift */; };
-		A3DFFA4C2901B8F400A28B8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DFFA4B2901B8F400A28B8C /* ViewController.swift */; };
+		A3DFFA4C2901B8F400A28B8C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DFFA4B2901B8F400A28B8C /* LoginController.swift */; };
 		A3DFFA4F2901B8F400A28B8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DFFA4D2901B8F400A28B8C /* Main.storyboard */; };
 		A3DFFA512901B8F500A28B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DFFA502901B8F500A28B8C /* Assets.xcassets */; };
 		A3DFFA542901B8F500A28B8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DFFA522901B8F500A28B8C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E5DF3142A564708003C5D2D /* CommentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewController.swift; sourceTree = "<group>"; };
+		7E5DF3162A5675C5003C5D2D /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		7E5DF3182A58534C003C5D2D /* MyPostsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPostsCollectionViewController.swift; sourceTree = "<group>"; };
+		7E5DF31A2A58604D003C5D2D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7E5DF31C2A586835003C5D2D /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		7E5DF31E2A587230003C5D2D /* ModalDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalDelegate.swift; sourceTree = "<group>"; };
+		7EBC41EF2A4A798000B1C8E7 /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		7EBC41F12A4A82C100B1C8E7 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		7EBC41F32A4A93BC00B1C8E7 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		7EBC41F52A4B2A9000B1C8E7 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		7EBC41FB2A4B3B8900B1C8E7 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
+		7EBC41FE2A4B3E0500B1C8E7 /* PostsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsCollectionViewController.swift; sourceTree = "<group>"; };
+		7EBC42042A4C87D900B1C8E7 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		7EC73E832A4F251C002400F9 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		A3C2D4CC2908297000C0AF5F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A3C2D4CE29082B1300C0AF5F /* AuthenticationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationController.swift; sourceTree = "<group>"; };
 		A3C2D4D029082BF900C0AF5F /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		A3DFFA442901B8F400A28B8C /* techSocialMediaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = techSocialMediaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DFFA472901B8F400A28B8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3DFFA492901B8F400A28B8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3DFFA4B2901B8F400A28B8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3DFFA4B2901B8F400A28B8C /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		A3DFFA4E2901B8F400A28B8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3DFFA502901B8F500A28B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3DFFA532901B8F500A28B8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,10 +71,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7EBC41FD2A4B3B9200B1C8E7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7EBC41FB2A4B3B8900B1C8E7 /* PostCollectionViewCell.swift */,
+				7EBC42042A4C87D900B1C8E7 /* FooterView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7EC73E852A4F26B0002400F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3DFFA4B2901B8F400A28B8C /* LoginController.swift */,
+				7EC73E832A4F251C002400F9 /* MyTabBarController.swift */,
+				7EBC41FE2A4B3E0500B1C8E7 /* PostsCollectionViewController.swift */,
+				7E5DF3162A5675C5003C5D2D /* NewPostViewController.swift */,
+				7E5DF3142A564708003C5D2D /* CommentsTableViewController.swift */,
+				7E5DF3182A58534C003C5D2D /* MyPostsCollectionViewController.swift */,
+				7E5DF31A2A58604D003C5D2D /* ProfileViewController.swift */,
+				7E5DF31C2A586835003C5D2D /* EditProfileViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A3C2D4CA2908293800C0AF5F /* Network */ = {
 			isa = PBXGroup;
 			children = (
 				A3C2D4CE29082B1300C0AF5F /* AuthenticationController.swift */,
+				7EBC41EF2A4A798000B1C8E7 /* APIController.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -54,8 +107,12 @@
 		A3C2D4CB2908295E00C0AF5F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7E5DF31E2A587230003C5D2D /* ModalDelegate.swift */,
+				7EBC41F52A4B2A9000B1C8E7 /* Comment.swift */,
+				7EBC41F32A4A93BC00B1C8E7 /* Post.swift */,
 				A3C2D4CC2908297000C0AF5F /* User.swift */,
 				A3C2D4D029082BF900C0AF5F /* API.swift */,
+				7EBC41F12A4A82C100B1C8E7 /* Profile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -79,15 +136,16 @@
 		A3DFFA462901B8F400A28B8C /* techSocialMediaApp */ = {
 			isa = PBXGroup;
 			children = (
-				A3C2D4CB2908295E00C0AF5F /* Models */,
-				A3C2D4CA2908293800C0AF5F /* Network */,
 				A3DFFA472901B8F400A28B8C /* AppDelegate.swift */,
 				A3DFFA492901B8F400A28B8C /* SceneDelegate.swift */,
-				A3DFFA4B2901B8F400A28B8C /* ViewController.swift */,
 				A3DFFA4D2901B8F400A28B8C /* Main.storyboard */,
 				A3DFFA502901B8F500A28B8C /* Assets.xcassets */,
 				A3DFFA522901B8F500A28B8C /* LaunchScreen.storyboard */,
 				A3DFFA552901B8F500A28B8C /* Info.plist */,
+				7EC73E852A4F26B0002400F9 /* Views */,
+				7EBC41FD2A4B3B9200B1C8E7 /* Cells */,
+				A3C2D4CB2908295E00C0AF5F /* Models */,
+				A3C2D4CA2908293800C0AF5F /* Network */,
 			);
 			path = techSocialMediaApp;
 			sourceTree = "<group>";
@@ -168,11 +226,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3C2D4CD2908297000C0AF5F /* User.swift in Sources */,
-				A3DFFA4C2901B8F400A28B8C /* ViewController.swift in Sources */,
+				7EBC42052A4C87D900B1C8E7 /* FooterView.swift in Sources */,
+				7E5DF31F2A587230003C5D2D /* ModalDelegate.swift in Sources */,
+				7EBC41F22A4A82C100B1C8E7 /* Profile.swift in Sources */,
+				A3DFFA4C2901B8F400A28B8C /* LoginController.swift in Sources */,
 				A3DFFA482901B8F400A28B8C /* AppDelegate.swift in Sources */,
+				7E5DF3172A5675C6003C5D2D /* NewPostViewController.swift in Sources */,
+				7E5DF31B2A58604D003C5D2D /* ProfileViewController.swift in Sources */,
+				7E5DF31D2A586835003C5D2D /* EditProfileViewController.swift in Sources */,
+				7E5DF3152A564708003C5D2D /* CommentsTableViewController.swift in Sources */,
 				A3C2D4CF29082B1300C0AF5F /* AuthenticationController.swift in Sources */,
+				7EBC41F62A4B2A9000B1C8E7 /* Comment.swift in Sources */,
+				7EBC41F02A4A798000B1C8E7 /* APIController.swift in Sources */,
+				7EBC41F42A4A93BC00B1C8E7 /* Post.swift in Sources */,
+				7EBC41FC2A4B3B8900B1C8E7 /* PostCollectionViewCell.swift in Sources */,
 				A3C2D4D129082BF900C0AF5F /* API.swift in Sources */,
+				7EBC41FF2A4B3E0500B1C8E7 /* PostsCollectionViewController.swift in Sources */,
 				A3DFFA4A2901B8F400A28B8C /* SceneDelegate.swift in Sources */,
+				7EC73E842A4F251C002400F9 /* MyTabBarController.swift in Sources */,
+				7E5DF3192A58534D003C5D2D /* MyPostsCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +391,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 675SH673K8;
+				DEVELOPMENT_TEAM = P37BL29UZP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = techSocialMediaApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -327,12 +399,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.braydenlemke.techSocialMediaApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidgranger.techSocialMediaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -347,7 +420,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 675SH673K8;
+				DEVELOPMENT_TEAM = P37BL29UZP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = techSocialMediaApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -355,12 +428,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.braydenlemke.techSocialMediaApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidgranger.techSocialMediaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
