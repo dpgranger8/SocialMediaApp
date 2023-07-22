@@ -13,6 +13,7 @@
 		7E5DF31B2A58604D003C5D2D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DF31A2A58604D003C5D2D /* ProfileViewController.swift */; };
 		7E5DF31D2A586835003C5D2D /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DF31C2A586835003C5D2D /* EditProfileViewController.swift */; };
 		7E5DF31F2A587230003C5D2D /* ModalDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DF31E2A587230003C5D2D /* ModalDelegate.swift */; };
+		7EA0A6CB2A6C900500A884C3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0A6CA2A6C900500A884C3 /* Constants.swift */; };
 		7EBC41F02A4A798000B1C8E7 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC41EF2A4A798000B1C8E7 /* APIController.swift */; };
 		7EBC41F22A4A82C100B1C8E7 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC41F12A4A82C100B1C8E7 /* Profile.swift */; };
 		7EBC41F42A4A93BC00B1C8E7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC41F32A4A93BC00B1C8E7 /* Post.swift */; };
@@ -39,6 +40,7 @@
 		7E5DF31A2A58604D003C5D2D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		7E5DF31C2A586835003C5D2D /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		7E5DF31E2A587230003C5D2D /* ModalDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalDelegate.swift; sourceTree = "<group>"; };
+		7EA0A6CA2A6C900500A884C3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7EBC41EF2A4A798000B1C8E7 /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 		7EBC41F12A4A82C100B1C8E7 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		7EBC41F32A4A93BC00B1C8E7 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		A3C2D4CB2908295E00C0AF5F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7EA0A6CA2A6C900500A884C3 /* Constants.swift */,
 				7E5DF31E2A587230003C5D2D /* ModalDelegate.swift */,
 				7EBC41F52A4B2A9000B1C8E7 /* Comment.swift */,
 				7EBC41F32A4A93BC00B1C8E7 /* Post.swift */,
@@ -236,6 +239,7 @@
 				7E5DF31D2A586835003C5D2D /* EditProfileViewController.swift in Sources */,
 				7E5DF3152A564708003C5D2D /* CommentsTableViewController.swift in Sources */,
 				A3C2D4CF29082B1300C0AF5F /* AuthenticationController.swift in Sources */,
+				7EA0A6CB2A6C900500A884C3 /* Constants.swift in Sources */,
 				7EBC41F62A4B2A9000B1C8E7 /* Comment.swift in Sources */,
 				7EBC41F02A4A798000B1C8E7 /* APIController.swift in Sources */,
 				7EBC41F42A4A93BC00B1C8E7 /* Post.swift in Sources */,

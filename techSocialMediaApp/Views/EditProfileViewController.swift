@@ -18,6 +18,11 @@ class EditProfileViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var techInterestsTV: UITextView!
     @IBOutlet weak var bioTV: UITextView!
     
+    @IBAction func doneBTN(_ sender: Any) {
+        bioTV.resignFirstResponder()
+        techInterestsTV.resignFirstResponder()
+    }
+    
     @IBAction func saveButton(_ sender: Any) {
         let alert = UIAlertController(title: "Save", message: "Are you sure you want to edit your profile?", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Save", style: .default, handler: { action in
@@ -36,6 +41,7 @@ class EditProfileViewController: UIViewController, UITextViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setupPlaceholders()
         bioTV.delegate = self
         techInterestsTV.delegate = self
     }
